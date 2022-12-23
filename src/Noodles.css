@@ -1,3 +1,12 @@
 .Noodles-img {
-    width: 500px;
+    height: 70vh;
+}
+
+.Noodles-title {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    color: white;
 }
