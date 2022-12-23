@@ -1,5 +1,25 @@
 .App {
   text-align: center;
-  /* background-image: url("https://cdna.artstation.com/p/assets/images/images/045/081/024/original/gun-sirichote-vending-machine-10-2.gif?1641877376"); */
   min-height: 100vh;
+}
+
+h1 {
+    color: rgb(17, 148, 255);
+    font-size: 80px;
+    margin: 0;
+    padding-top: 3%;
+}
+
+nav a {
+    margin: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+nav a:hover {
+    color: rgb(0, 195, 255);
+}
+
+nav {
+    margin: 20px;
 }

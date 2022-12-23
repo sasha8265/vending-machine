@@ -1,3 +1,13 @@
 .Dumplings-img {
-    width: 500px;
+    height: 100%;
+}
+
+.Dumplings-title {
+    position: absolute;
+    top: 35%;
+    /* bottom: 50%; */
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    color: white;
 }

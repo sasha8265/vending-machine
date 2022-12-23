@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
 import VendingMachine from "./VendingMachine"
 import Dumplings from "./Dumplings"
 import Noodles from "./Noodles"
@@ -9,12 +9,20 @@ function App() {
   return (
       <div className="App">
           <BrowserRouter>
+              <h1>Pick a Snack!!</h1>
+              <nav>
+                  <Link to="/">Vending Machine</Link>
+                  <Link to="/dumplings">Dumplings</Link>
+                  <Link to="/noodles">Noodles</Link>
+                  <Link to="/cupcake">Cupcake </Link>
+              </nav>
+
               <Routes>
                   <Route
                       exact path='/'
                       element={<VendingMachine />}
                   />
-
+                  
                   <Route
                       exact path='/dumplings'
                       element={<Dumplings />}
