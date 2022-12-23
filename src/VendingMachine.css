@@ -1,0 +1,13 @@
+.VendingMachine {
+    height: 100vh;
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/045/081/024/original/gun-sirichote-vending-machine-10-2.gif?1641877376");
+    background-size: 100vw;
+    /* background-repeat: no-repeat; */
+}
+
+.VendingMachine-title {
+    color: white;
+    font-size: 80px;
+    margin: 0;
+    padding-top: 10%;
+}

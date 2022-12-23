@@ -1,15 +1,13 @@
 import React from "react"
-import Dumplings from "./Dumplings"
-import Noodles from "./Noodles"
-import Cupcake from "./Cupcake"
+import "./VendingMachine.css"
+
 
 const VendingMachine = () => {
     return (
-        <>
-            <Dumplings />
-            <Noodles />
-            <Cupcake />
-        </>
+        <div className="VendingMachine">
+            <h1 className="VendingMachine-title">Pick a Snack!!</h1>
+            
+        </div>
     )
 }
 
