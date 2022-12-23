@@ -9,7 +9,6 @@ function App() {
   return (
       <div className="App">
           <BrowserRouter>
-              <h1>Pick a Snack!!</h1>
               <nav>
                   <Link to="/">Vending Machine</Link>
                   <Link to="/dumplings">Dumplings</Link>

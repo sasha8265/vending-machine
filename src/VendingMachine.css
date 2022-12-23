@@ -1,4 +1,11 @@
-
+.VendingMachine-title {
+    position: absolute;
+    top: 13%;
+    left: 0;
+    right: 0;
+    font-size: 40px;
+    color: rgb(230, 46, 46);
+}
 .VendingMachine-img {
     height: 75vh;
 }
